@@ -18,7 +18,6 @@ public class BaseClass {
 	
 	static ExtentTest test;
 	
-	
 	static WebDriver driver;
 	
 	public static WebDriver getDriver(String browser)
@@ -35,6 +34,8 @@ public class BaseClass {
 				WebDriverManager.firefoxdriver().setup();
 				//System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\Browsers\\geckodriver.exe");
 				driver = new FirefoxDriver();
+				
+				
 				
 			}
 		
